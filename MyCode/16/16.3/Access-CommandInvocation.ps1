@@ -7,7 +7,7 @@ function Access-InvocationFromFunction {
     "Script's path: $PSCommandPath"
     "Script's location: $PSScriptRoot"
     "You invoked this script by typing: " + $myInvocation.Line
-    
+    $myInvocation
 }
 
 Access-InvocationFromFunction -v

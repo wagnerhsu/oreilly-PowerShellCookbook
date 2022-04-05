@@ -1,0 +1,1 @@
+.\Invoke-SqlCommand.ps1 -DataSource . -Database AdventureWorks2019 -SqlCommand "select * from Person.Person" | Get-Member
